@@ -16,11 +16,11 @@ How to link and code with very powerful external resources like Font Awesome, Go
 
 To use the application follow the link and be sure to add all your events in the corresponding time.  
 
-(https://nxtera.github.io/Thats-So-Random/)
+(https://nxtera.github.io/Am-I-Busy)
 
 Screenshot of live page (sample)
 
-![ScreenShot](assets/images/Am I Busy.gif)
+![](https://github.com/nxtera/Am-I-Busy/blob/main/assets/images/Am_I_Busy.gif)
  
    
 ## Credits
