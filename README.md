@@ -20,7 +20,7 @@ To use the application follow the link and be sure to add all your events in the
 
 Screenshot of live page (sample)
 
-![](https://github.com/nxtera/Am-I-Busy/blob/main/assets/images/Am_I_Busy.gif)
+![me](https://github.com/nxtera/Am-I-Busy/blob/main/assets/images/Am_I_Busy.gif)
  
    
 ## Credits
