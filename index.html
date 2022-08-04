@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!--Link to Bootsrap 5.1.3-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+
+    <!--Link to Fonts Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!--Link to Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Link to custom css-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Am I Busy?</title>
+  </head>
+
+  <body>
+
+    <!--Header Section-->
+    <header class="jumbotron">
+      <h1 class="display-3">Am I Busy?</h1>
+      <p class="lead">Check what events you have booked in for the day!</p>
+      <h3 id="currentDay" class="lead">xxx</h3>
+    </header>
+
+    <!--Event Saved Confirmation-->
+    <section class ="event-confirm">Event sucessfully saved in local storage</section>
+    
+    
+      
+      <!-- The Timeblock -->
+    <div class="container">
+      
+      <div id = "h-9" class="row" >
+        <div class="col-md-1 hour">09:00</div>
+        <textarea id="9" class ="col-8 time-block description" ></textarea> 
+        <button class="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-10" class="row" >
+        <div class="col-md-1 hour">10:00</div>
+        <textarea id="10" class ="col-8 time-block description"></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-11" class="row" >
+        <div class="col-md-1 hour">11:00</div>
+        <textarea id="11" class ="col-8 time-block description"></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-12" class="row" >
+        <div class="col-md-1 hour">12:00</div>
+        <textarea id="12" class ="col-8 time-block description"></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-13" class="row" >
+        <div class="col-md-1 hour">13:00</div>
+        <textarea id="13" class ="col-8 time-block description"></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-14" class="row" >
+        <div class="col-md-1 hour">14:00</div>
+        <textarea id="14" class ="col-8 time-block description" ></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-15" class="row" >
+        <div class="col-md-1 hour">15:00</div>
+        <textarea id="15" class ="col-8 time-block description"></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-16" class="row" >
+        <div class="col-md-1 hour">16:00</div>
+        <textarea id="16" class ="col-8 time-block description"></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      <div id ="h-17" class="row" >
+        <div class="col-md-1 hour">17:00</div>
+        <textarea id="17" class ="col-8 time-block description"></textarea> 
+        <button class ="col-2 saveBtn">
+          <i class="far fa-save fa-2x" aria-hidden="true"></i>
+        </button> 
+      </div>
+      
+   </div>
+
+    <!--Link to JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!--Link to moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+    <!--Link to custom js-->
+    <script src="./assets/js/script.js"></script>
+
+
+
+  </body>
+</html>
