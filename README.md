@@ -18,7 +18,7 @@ To use the application follow the link and be sure to add all your events in the
 
 (https://nxtera.github.io/Am-I-Busy)
 
-Screenshot of live page (sample)
+Gif of live application (sample)
 
 ![me](https://github.com/nxtera/Am-I-Busy/blob/main/assets/images/Am_I_Busy.gif)
  
